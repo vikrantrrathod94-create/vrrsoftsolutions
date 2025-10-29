@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#004aad"/>
+    </linearGradient>
+  </defs>
+  <!-- Symbol: stylized V with gear notch -->
+  <g transform="translate(50,30)">
+    <path d="M60 0 L120 120 L0 120 Z" fill="url(#g)" />
+    <circle cx="90" cy="90" r="28" fill="#0b1330"/>
+    <path d="M84 70 L96 70 L96 92 L84 92 Z" fill="#00aaff" />
+    <path d="M72 82 L108 98" stroke="#004aad" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Text -->
+  <text x="220" y="160" font-family="Segoe UI, Roboto, Arial" font-size="86" fill="#ffffff">VRR Soft</text>
+  <text x="220" y="240" font-family="Segoe UI, Roboto, Arial" font-size="46" fill="#9fbff6">Solutions</text>
+</svg>
