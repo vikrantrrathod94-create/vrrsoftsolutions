@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — VRR Soft Solutions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.svg" class="logo" alt="VRR Soft Solutions"></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact Us</h1>
+    <p>Interested in working together? Send us a message or email at <a href="mailto:contact@vrrsoftsolutions.com">contact@vrrsoftsolutions.com</a></p>
+
+    <form class="contact-form" onsubmit="alert('This is a static demo. Configure a form backend or use mailto.'); return false;">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="message" rows="6" required></textarea></label>
+      <p><button class="btn primary" type="submit">Send Message</button></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 VRR Soft Solutions</p>
+    </div>
+  </footer>
+</body>
+</html>
